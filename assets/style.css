@@ -1,0 +1,15 @@
+header {
+  color: violet;
+}
+
+.btn {
+  background-color: blueviolet;
+  color: white;
+  border: none;
+}
+
+.btn:hover {
+  background-color: violet;
+  color: white;
+  border: none;
+}
