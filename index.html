@@ -9,32 +9,29 @@
 </head>
 <body>
   
-  <header>
-    <h1>View High Scores</h1>
-  </header>
+  <div class = "container">
+    <div id ="quiz">
+      <h1>View High Scores</h1>
 
-<section>
-  <h2>Coding Quiz Challenge</h2>
-  <p>Try to answer the following code-related questions with the time limit.<br>
-    Keep in mind that incorrect answers will penalize your score/time <br>
-    by ten seconds!
-  </p>
-  <a href="./question1.html"><button type="submit" class="btn">Start Quiz!</button></a>
+      <p id="question"></p>
 
-</section>
+      <div class ="buttons">
+          <button id="btn0"><span id="choice0"></span></button>
+          <button id="btn1"><span id="choice1"></span></button>
+          <button id="btn2"><span id="choice2"></span></button>
+          <button id="btn3"><span id="choice3"></span></button>  
+      </div>
 
+      <h2 id="result"></h2>
+      <footer>
+        <p id="progress">Question x of y</p>
+      </footer>
 
+    </div>
+  </div>
 
-<!--Final Score Screen-->
-<section>
-  <h2>All done!</h2>
-  <h3>Your final score is <input type="number">. </h3>
-  <label> Enter intitials<input type="text"></label>
-  <button>Submit</button>
-  
-</section>
+<script src="./assets/script.js"></script>
 
-
-  
 </body>
-</html>
+
+
