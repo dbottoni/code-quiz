@@ -12,28 +12,38 @@
 
   <link rel="stylesheet" href="./assets/css/style.css">
 
-  <title>Hello, world!</title>
+  <title>JavaScript Quiz</title>
 </head>
 
 <body>
 
   <div id="start" class="homePage text-center">
-    <h1>Class Trivia</h1>
+    <h1>Javascript Trivia</h1>
     <h2>Click the Start Button to Begin</h2>
+    <h3>You will have 30 seconds to complete the quiz</h3>
     <button id="startGame" class="btn btn-group-lg btn-primary">Start</button>
   </div>
 
 
   <div class="container text-center">
-
+    <!--added p tag for timer--> 
+    <h2 id="countdown"></h2>
+    <p id="main"></p>
     <h2 id="final" style="display: none;">
     </h2>
     <button id="pa" class="btn btn-group-lg btn-primary" style="display: none;">Play Again</button>
+    
+
     <h2 id="quesPosition" style="display: none;">
 
     </h2>
     <div id="game" style="display: none;">
+      
 
+    </div>
+    <div id="result" style="display: none;">
+      <input type="text" id="nameInput">
+      <button id="submitButton" type="submit">Submit</button>
     </div>
   </div>
 
