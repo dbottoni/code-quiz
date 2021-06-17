@@ -30,6 +30,8 @@ The following animation demonstrates the application functionality:
 
 ![image](https://user-images.githubusercontent.com/72705457/122472608-d02f5280-cf8e-11eb-8e96-d13f239b4da0.png)
 
+![image](https://user-images.githubusercontent.com/72705457/122472679-e3422280-cf8e-11eb-8235-4f997de9932e.png)
+
 
 ### Review
 
