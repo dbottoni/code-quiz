@@ -1,6 +1,6 @@
-  
 #pa {
   margin: auto;
+  border-radius: 40px;
 }
 
 .choiceBG {
@@ -24,4 +24,18 @@
 
 .container {
   margin-top: 40px !important;
+}
+ 
+
+#result {
+  padding-top: 20px;
+}
+
+#submitButton {
+  border-radius: 40px;
+  
+}
+
+#submitButton:hover {
+  background-color: darkgray;
 }
